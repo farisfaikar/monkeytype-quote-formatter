@@ -1,0 +1,20 @@
+[
+  {
+    "text": "def fibonacci(n):\\n\\tif n < 0:\\n\\t\\tprint(\"Incorrect input\")\\n\\telif n == 0:\\n\\t\\treturn 0\\n\\telif n == 1 or n == 2:\\n\\t\\treturn 1\\n\\telse:\\n\\t\\treturn fibonacci(n - 1) + fibonacci(n - 2)",
+    "source": "geeksforgeeks - Fibonacci",
+    "id": 9,
+    "length": 187
+  },
+  {
+    "text": "def factorial(n):\\n\\treturn 1 if (n == 1 or n == 0) else n * factorial(n - 1)",
+    "source": "geeksforgeeks - Factorial",
+    "id": 10,
+    "length": 77
+  },
+  {
+    "text": "class Person:\\n\\tdef __init__(self, name, age):\\n\\t\\tself.name = name\\n\\t\\tself.age = age",
+    "source": "w3schools - Python Classes/Objects",
+    "id": 11,
+    "length": 89
+  }
+]
