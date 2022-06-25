@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "source": "John Doe",
+    "length": 56,
+    "id": 12
+  },
+  {
+    "text": "Nunc tristique vehicula tellus, id maximus neque semper a.",
+    "source": "Jane Doe",
+    "length": 58,
+    "id": 13
+  }
+]
