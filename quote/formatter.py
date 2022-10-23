@@ -27,10 +27,9 @@ def main():
                 "id": id
             })
             id += 1
-        json.dump(data, output, indent=2)
+        json.dump(data, output, indent=2, ensure_ascii=False)
         print(">>> Finished formatting quotes. Copy and Paste quotes from output.json")
 
 
 if __name__ == '__main__':
     main()
-    
