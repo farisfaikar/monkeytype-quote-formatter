@@ -3,7 +3,7 @@ import json
 
 def read_quote_list():
     quotes = []
-    with open('quote/quotes.txt', 'r') as q:
+    with open('quote/quotes.txt', 'r', encoding="utf8") as q:
         quote_list = q.readlines()
         for _, quote in enumerate(quote_list):
             quote = quote.replace('\n', '').split(' * ')
@@ -16,7 +16,7 @@ def read_quote_list():
 def main():
     quotes = read_quote_list()
     id = int(input("Input starting id: "))
-    with open('quote/output.json', 'w') as output:
+    with open('quote/output.json', 'w', encoding="utf8") as output:
         data = []
         for _, (text, source) in enumerate(quotes):
             print(f"Formatted: {id}) {text} * {source}")
