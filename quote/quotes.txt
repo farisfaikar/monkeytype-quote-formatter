@@ -1,2 +1,2 @@
-1) Lorem ipsum dolor sit amet, consectetur adipiscing elit. ~ John Doe
-2) Nunc tristique vehicula tellus, id maximus neque semper a. ~ Jane Doe
+1) Lorem ipsum dolor sit amet, consectetur adipiscing elit. * John Doe
+2) Nunc tristique vehicula tellus, id maximus neque semper a. * Jane Doe
